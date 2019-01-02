@@ -1,0 +1,10 @@
+課題8 ラベリング
+ラベリングとは2値化白の部分および黒の部分が連続した画素に同じ番号を割り振ることをいうこれは4連結を8連結の2つの処理があり一方でラスタスキャンを行う。  
+![](https://github.com/Tomiyoshi-Takafumi/lecture_image_processing/blob/master/%E8%AA%B2%E9%A1%8C%E7%94%BB%E5%83%8F/8-1.png) 
+図1 グレースケール
+![](https://github.com/Tomiyoshi-Takafumi/lecture_image_processing/blob/master/%E8%AA%B2%E9%A1%8C%E7%94%BB%E5%83%8F/8-2.png)  
+図2　2値化
+![](https://github.com/Tomiyoshi-Takafumi/lecture_image_processing/blob/master/%E8%AA%B2%E9%A1%8C%E7%94%BB%E5%83%8F/8-3.png)  
+図3　2値化画像ラベリング  
+IMG = bwlabeln(IMG)でバイナリ イメージ内の連結要素をラベル付けを行った
+
