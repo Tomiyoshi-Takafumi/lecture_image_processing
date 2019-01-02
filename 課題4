@@ -1,0 +1,9 @@
+課題4　画像の濃度ヒストグラム
+グレースケールの画像を濃度ヒストグラム化して広がりを見る。  
+
+![](https://github.com/Tomiyoshi-Takafumi/lecture_image_processing/blob/master/%E8%AA%B2%E9%A1%8C%E7%94%BB%E5%83%8F/4-1.png)  
+図1 グレースケール  
+![](https://github.com/Tomiyoshi-Takafumi/lecture_image_processing/blob/master/%E8%AA%B2%E9%A1%8C%E7%94%BB%E5%83%8F/4-2.png)  
+図2 濃度ヒストグラム  
+
+濃度ヒストグラムを見ると図1の画像には輝度256階調のうち200階調周辺が多いことがわかるので課題3で白の割合が多かったことも理解できる。
